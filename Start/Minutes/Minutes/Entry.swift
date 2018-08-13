@@ -3,9 +3,9 @@ import Foundation
 class Entry: Codable
 {
     var title:   String = "hello"
-    var content: String = ""
+    var content: String = "There"
     
-    var id: String = UUID().uuidString
+    vai id: String = UUID().uuidString
     
     var createdDate: Date = Date()
     
