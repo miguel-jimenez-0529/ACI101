@@ -5,7 +5,7 @@ class Entry: Codable
     var title:   String = "hello"
     var content: String = "There"
     
-    vai id: String = UUID().uuidString
+    var id: String = UUID().uuidString
     
     var createdDate: Date = Date()
     
